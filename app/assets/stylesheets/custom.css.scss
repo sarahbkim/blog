@@ -1,0 +1,223 @@
+
+/*universals*/ 
+* {
+	padding: 0; 
+	margin: 0; 
+}
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+
+html, body { 
+	height: 100%;
+	overflow: auto; 
+} 
+
+.wrapper {
+	height: 100%;
+	width: 100%; 
+	display: table;
+	overflow: auto; 
+}
+
+
+#main { 
+	background-color: #ecf0f1; 
+	width: 75%; 
+	min-height: 100%; 
+	vertical-align: top;  
+	position: relative;
+	display: table-cell; 
+}
+
+#social_media {
+		float: right;
+		position: fixed;
+		top: 0; 
+		right: 0; 
+		ul { 
+			list-style: none; 
+		}
+		li { 
+			float: left; }
+	}
+
+#header { 
+	background-color: #e74c3c; 
+	width: 25%;
+	min-height: 100%; 
+	display: table-cell; 
+	vertical-align: top;
+	position: relative;
+	overflow: auto; 
+	#nav {
+		position: absolute; 
+		margin: auto; 
+		left: 0; right: 0;
+		ul { 
+			list-style: none;
+			width: 100%;
+		}
+		li { 
+			text-align: center;
+			width: 25%; 
+		}
+		a { 
+			display: block;
+			color: #ecf0f1;
+ 			width: 100%;
+ 			padding-bottom: 20px;  
+ 			padding-top: 20px;
+		}
+		a:hover { 
+		background-color: #ecf0f1; 
+		color: #000; 
+		} 
+	}
+}
+.logo {
+	border-radius: 50px;  
+	width: 100px;  
+	height: 100px; 
+	background: #ecf0f1;
+	display: block; 
+	margin: 0 auto; 
+	position: relative;
+	margin-bottom: 60px;
+	margin-top: 60px; 
+	p { 
+		font-family: 'Dense', sans-serif;
+		display: inline-block;
+		margin-top: 10px;
+		overflow: auto; 
+	}
+}
+
+/*static pages*/ 
+
+#intro { 
+	margin: 30px;
+	height: 100%;
+	width: 80%;
+	padding-left: 60px; 
+	p { 
+	padding: 10px; 
+	} 
+	a:link{ 
+		background-color: #ecf0f1; 
+		font-size: 1em;
+		color: #2c3e50;}
+	a:hover { 
+		background-color: #f1c40f;
+	}
+	ul { 
+		list-style: none;
+		font-family: 'Vollkorn', serif;
+	}
+}
+
+
+.profile_pic {
+	border-radius: 50px;  
+	width: 100px;  
+	height: 100px; 
+	display: block; 
+	margin: 0 auto; 
+	background-color: #000; 
+	position: relative;
+}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+/*blog section layouts*/
+
+table {
+	margin: 15px; 
+	font-size: 0.8em; 
+	tbody tr th { 
+			font-family: 'Dense', sans-serif;
+			font-size: 1.5em;  
+	}
+}
+
+.form {
+	display: inline-block; 
+	float: center; 
+	font-family: 'Dense', sans-serif; 
+	color: #ecf0f1;
+	font-size: 1em; 
+	}
+
+
+/*typography*/ 
+h1, { 
+	font-family: 'Dense', sans-serif; 
+	font-size: 4em;
+	color: #ecf0f1; 
+	background-color: #e74c3c;
+	display: inline-block;
+	padding: 5px;
+	text-transform: uppercase; 
+}
+
+h2 { 
+	font-family: 'Dense', sans-serif; 
+	font-size: 2em; 
+	text-align: center; 
+	padding-bottom: 2px;
+	color: #2c3e50;
+	background-color: #f1c40f;
+}
+
+h4 {
+	font-size: 1em; 
+	display: block; 
+	float: right;
+	font-family: 'Vollkorn', serif; 
+	padding-bottom: 2px; 
+} 
+
+p{ 
+	font-family: 'Vollkorn', serif; 
+	font-size: 1.2em;
+	color: #2c3e50;
+	padding: 10px;
+	text-align: justify;
+	ul { 
+		font-size: 1em; 
+	}
+}
+
+nav { 
+	font-family: 'Dense', sans-serif; 
+	font-size: 2.5em; 
+}
+
+
+
+a:hover { 
+	background-color: #f1c40f; 
+} 
+
+a:visited { 
+	color: #2c3e50;
+}
+
+/* the highlighter yellow color: #FFFF99
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'PT Serif', serif; */
+/*flat UI colors: #e74c3c; -- alzarin (red) 
+					#ecf0f1 -- cloud (light grey) 
+					#f1c40f -- sunflower (bright yellow)
+					#2c3e50 -- midnight blue (dark blue -- almost black)
+
+		*/
