@@ -3,7 +3,7 @@ Blog::Application.configure do
 
 
   #Add the fonts path
-  config.assets.paths << Rails.root.join('app', 'assets', 'fonts') 
+  config.assets.paths << Rails.root.join('app', 'public', 'fonts') 
 
   #Precompile additional assets 
   config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
