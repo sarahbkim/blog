@@ -12,3 +12,12 @@
  *= require_tree .
  */
 
+@font-face { 
+	font-family: 'Dense-Regular'; 
+	src:url('Dense-Regular.eot');
+	src:url('Dense-Regular.eot?#iefix') format('embedded-opentype'), 
+		url('Dense-Regular.svg#dense-reguarl') format('svg'), 
+		url('Dense-Regular.woff') format('woff'), 
+		url('Dense-Regular.ttf') format('truetype'); 
+		font-weight: normal;
+		font-style: normal; 
