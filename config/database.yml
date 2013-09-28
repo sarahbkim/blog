@@ -20,7 +20,7 @@ test:
   database: myapp_test
   pool: 5
   username: sk
-  password: blessme12
+  password: blessme12!
 
 production:
   adapter: postgresql
@@ -28,4 +28,4 @@ production:
   database: myapp_production
   pool: 5
   username: sk 
-  password: blessme12
+  password: blessme12!

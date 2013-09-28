@@ -87,7 +87,7 @@ html, body {
 	margin-bottom: 60px;
 	margin-top: 60px; 
 	p { 
-		font-family: 'Dense', sans-serif;
+		font-family: 'Dense-Regular', sans-serif;
 		display: inline-block;
 		margin-top: 10px;
 		overflow: auto; 
@@ -144,7 +144,7 @@ table {
 	margin: 15px; 
 	font-size: 0.8em; 
 	tbody tr th { 
-			font-family: 'Dense', sans-serif;
+			font-family: 'Dense-Regular', sans-serif;
 			font-size: 1.5em;  
 	}
 }
@@ -152,7 +152,7 @@ table {
 .form {
 	display: inline-block; 
 	float: center; 
-	font-family: 'Dense', sans-serif; 
+	font-family: 'Dense-Regular', sans-serif; 
 	color: #ecf0f1;
 	font-size: 1em; 
 	}
@@ -160,7 +160,7 @@ table {
 
 /*typography*/ 
 h1, { 
-	font-family: 'Dense', sans-serif; 
+	font-family: 'Dense-Regular', sans-serif; 
 	font-size: 4em;
 	color: #ecf0f1; 
 	background-color: #e74c3c;
@@ -170,7 +170,7 @@ h1, {
 }
 
 h2 { 
-	font-family: 'Dense', sans-serif; 
+	font-family: 'Dense-Regular', sans-serif; 
 	font-size: 2em; 
 	text-align: center; 
 	padding-bottom: 2px;
@@ -198,7 +198,7 @@ p{
 }
 
 nav { 
-	font-family: 'Dense', sans-serif; 
+	font-family: 'Dense-Regular', sans-serif; 
 	font-size: 2.5em; 
 }
 
@@ -212,6 +212,17 @@ a:visited {
 	color: #2c3e50;
 }
 
+
+@font-face { 
+	font-family: 'Dense-Regular'; 
+	src:font-url('Dense-Regular.eot');
+	src:font-url('Dense-Regular.eot?#iefix') format('embedded-opentype'), 
+		font-url('Dense-Regular.svg#dense-reguarl') format('svg'), 
+		font-url('Dense-Regular.woff') format('woff'), 
+		font-url('Dense-Regular.ttf') format('truetype'); 
+		font-weight: normal;
+		font-style: normal; 
+}
 /* the highlighter yellow color: #FFFF99
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'PT Serif', serif; */

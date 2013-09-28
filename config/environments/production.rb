@@ -1,6 +1,13 @@
 Blog::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+
+  #Add the fonts path
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts') 
+
+  #Precompile additional assets 
+  config.assets.precompile += %w( .svg .eo .woff .tff ) 
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
