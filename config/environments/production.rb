@@ -6,7 +6,7 @@ Blog::Application.configure do
   config.assets.paths << Rails.root.join('app', 'assets', 'fonts') 
 
   #Precompile additional assets 
-  config.assets.precompile += %w( .svg .eo .woff .tff ) 
+  config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
   # Code is not reloaded between requests.
   config.cache_classes = true
