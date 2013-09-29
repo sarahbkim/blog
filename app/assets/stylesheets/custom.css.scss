@@ -11,14 +11,12 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 html, body { 
 	height: 100%;
-	overflow: auto; 
+	margin: 0px; 
+	padding: 0px; 
 } 
 
 .wrapper {
 	height: 100%;
-	width: 100%; 
-	display: table;
-	overflow: auto; 
 }
 
 
@@ -27,8 +25,8 @@ html, body {
 	width: 75%; 
 	min-height: 100%; 
 	vertical-align: top;  
-	position: relative;
-	display: table-cell; 
+	position: relative; 
+	float: right; 
 }
 
 #social_media {
@@ -45,12 +43,10 @@ html, body {
 
 #header { 
 	background-color: #e74c3c; 
+	float: left; 
+	height: 100%; 
+	vertical-align: top; 
 	width: 25%;
-	min-height: 100%; 
-	display: table-cell; 
-	vertical-align: top;
-	position: relative;
-	overflow: auto; 
 	#nav {
 		position: absolute; 
 		margin: auto; 
