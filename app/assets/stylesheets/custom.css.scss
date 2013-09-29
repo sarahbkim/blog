@@ -29,20 +29,9 @@ html, body {
 	float: right; 
 }
 
-#social_media {
-		float: right;
-		position: fixed;
-		top: 0; 
-		right: 0; 
-		ul { 
-			list-style: none; 
-		}
-		li { 
-			float: left; }
-	}
 
-#header { 
-	background-color: #e74c3c; 
+#header {
+	background-color: #ffff33;  
 	float: left; 
 	height: 100%; 
 	vertical-align: top; 
@@ -53,7 +42,6 @@ html, body {
 		left: 0; right: 0;
 		ul { 
 			list-style: none;
-			width: 100%;
 		}
 		li { 
 			text-align: center;
@@ -61,19 +49,20 @@ html, body {
 		}
 		a { 
 			display: block;
-			color: #ecf0f1;
+			color: #2c3e50;
  			width: 100%;
  			padding-bottom: 20px;  
  			padding-top: 20px;
 		}
 		a:hover { 
-		background-color: #ecf0f1; 
-		color: #000; 
+		background-color: #ecf0f1;
+		border: solid #2c3e50;
 		} 
 	}
 }
 .logo {
-	border-radius: 50px;  
+	border-radius: 50px; 
+	border: solid #2c3e50;
 	width: 100px;  
 	height: 100px; 
 	background: #ecf0f1;
@@ -85,17 +74,28 @@ html, body {
 	p { 
 		font-family: 'Oswald', sans-serif;
 		display: inline-block;
-		margin-top: 10px;
+		vertical-align: center; 
 	}
 }
+
+#social_media {
+		.clear: both; 
+		float: right;
+		position: fixed;
+		top: 0; 
+		right: 0; 
+		ul { 
+			list-style: none; 
+		}
+		li { 
+			float: left; }
+	}
 
 /*static pages*/ 
 
 #intro { 
 	margin: 30px;
 	height: 100%;
-	width: 80%;
-	padding-left: 60px; 
 	p { 
 	padding: 10px; 
 	} 
@@ -104,7 +104,7 @@ html, body {
 		font-size: 1em;
 		color: #2c3e50;}
 	a:hover { 
-		background-color: #f1c40f;
+		background-color: #ffff33; 
 	}
 	ul { 
 		list-style: none;
@@ -113,11 +113,12 @@ html, body {
 }
 
 
-.profile_pic {
-	border-radius: 50px;  
-	width: 100px;  
-	height: 100px; 
+#profile_pic {
+	border-radius: 50%;  
+	width: 400px;  
+	height: 400px; 
 	display: block; 
+	float: right; 
 	margin: 0 auto; 
 	background-color: #000; 
 	position: relative;
@@ -158,11 +159,12 @@ h1, {
 	font-family: 'Oswald', sans-serif; 
 	font-weight: 300; 
 	font-size: 4em;
-	color: #ecf0f1; 
-	background-color: #e74c3c;
+	color: #2c3e50; 
+	background-color: #ffff33;
 	display: inline-block;
 	padding: 5px;
-	text-transform: uppercase; 
+	text-transform: uppercase;
+	border: solid #2c3e50; 
 }
 
 h2 { 
@@ -172,7 +174,7 @@ h2 {
 	text-align: center; 
 	padding-bottom: 2px;
 	color: #2c3e50;
-	background-color: #f1c40f;
+	background-color: #ffff33; 
 }
 
 h4 {
@@ -203,20 +205,10 @@ nav {
 
 
 a:hover { 
-	background-color: #f1c40f; 
+	background-color: #ffff33; 
 } 
 
 a:visited { 
 	color: #2c3e50;
 }
 
-
-/* the highlighter yellow color: #FFFF99
-font-family: 'PT Sans Narrow', sans-serif;
-font-family: 'PT Serif', serif; */
-/*flat UI colors: #e74c3c; -- alzarin (red) 
-					#ecf0f1 -- cloud (light grey) 
-					#f1c40f -- sunflower (bright yellow)
-					#2c3e50 -- midnight blue (dark blue -- almost black)
-
-		*/
