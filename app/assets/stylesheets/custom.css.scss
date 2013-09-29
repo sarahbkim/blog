@@ -77,16 +77,15 @@ html, body {
 	width: 100px;  
 	height: 100px; 
 	background: #ecf0f1;
-	display: block; 
 	margin: 0 auto; 
+	overflow: auto;
 	position: relative;
 	margin-bottom: 60px;
 	margin-top: 60px; 
 	p { 
-		font-family: 'Dense-Regular', sans-serif;
+		font-family: 'Oswald', sans-serif;
 		display: inline-block;
 		margin-top: 10px;
-		overflow: auto; 
 	}
 }
 
@@ -140,7 +139,7 @@ table {
 	margin: 15px; 
 	font-size: 0.8em; 
 	tbody tr th { 
-			font-family: 'Dense-Regular', sans-serif;
+			font-family: 'Oswald', sans-serif;
 			font-size: 1.5em;  
 	}
 }
@@ -148,7 +147,7 @@ table {
 .form {
 	display: inline-block; 
 	float: center; 
-	font-family: 'Dense-Regular', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
 	color: #ecf0f1;
 	font-size: 1em; 
 	}
@@ -156,7 +155,8 @@ table {
 
 /*typography*/ 
 h1, { 
-	font-family: 'Dense-Regular', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300; 
 	font-size: 4em;
 	color: #ecf0f1; 
 	background-color: #e74c3c;
@@ -166,7 +166,8 @@ h1, {
 }
 
 h2 { 
-	font-family: 'Dense-Regular', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300; 
 	font-size: 2em; 
 	text-align: center; 
 	padding-bottom: 2px;
@@ -194,8 +195,9 @@ p{
 }
 
 nav { 
-	font-family: 'Dense-Regular', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
 	font-size: 2.5em; 
+	font-weight: 300; 
 }
 
 
