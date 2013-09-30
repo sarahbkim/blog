@@ -12,11 +12,14 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 html, body { 
 	height: 100%;
 	margin: 0px; 
-	padding: 0px; 
+	padding: 0px;
+	background-color: #ffff33; 
+
 } 
 
 .wrapper {
 	height: 100%;
+
 }
 
 
@@ -31,14 +34,14 @@ html, body {
 
 
 #header {
-	background-color: #ffff33;  
-	float: left; 
-	height: 100%; 
+	background-color: #ffff33; 
+	float: left;
+	min-height: 100%; 
 	vertical-align: top; 
 	width: 25%;
 	#nav {
 		position: absolute; 
-		margin: auto; 
+		margin: auto;
 		left: 0; right: 0;
 		ul { 
 			list-style: none;
@@ -96,6 +99,7 @@ html, body {
 #intro { 
 	margin: 30px;
 	height: 100%;
+	display: block; 
 	p { 
 	padding: 10px; 
 	} 
