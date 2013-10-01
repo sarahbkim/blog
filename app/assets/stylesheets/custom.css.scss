@@ -101,7 +101,8 @@ html, body {
 	height: 100%;
 	display: block; 
 	p { 
-	margin: 0px 0px 30px 30px;  
+	padding-left: 80px; 
+	padding-right: 80px; 
 	} 
 	a:link{ 
 		font-size: 1em;
@@ -149,12 +150,11 @@ table {
 /*typography*/ 
 h1, { 
 	font-family: 'Oswald', sans-serif; 
-	font-weight: 300; 
-	font-size: 4em;
+	font-size: 5em;
 	color: #2c3e50; 
-	display: inline-block;
 	padding: 5px;
 	text-transform: uppercase;
+	text-align: center; 
 }
 
 h2 { 
@@ -180,7 +180,6 @@ p{
 	font-size: 1.2em;
 	color: #F3EFE0;
 	padding: 10px;
-	text-align: justify;
 	ul { 
 		font-size: 1em; 
 	}
