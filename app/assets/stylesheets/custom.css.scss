@@ -13,7 +13,7 @@ html, body {
 	height: 100%;
 	margin: 0px; 
 	padding: 0px;
-	background-color: #ffff33; 
+	background-color: #f3efe0; 
 
 } 
 
@@ -24,7 +24,7 @@ html, body {
 
 
 #main { 
-	background-color: #ecf0f1; 
+	background-color: #CD5C5C; 
 	width: 75%; 
 	min-height: 100%; 
 	vertical-align: top;  
@@ -34,7 +34,6 @@ html, body {
 
 
 #header {
-	background-color: #ffff33; 
 	float: left;
 	min-height: 100%; 
 	vertical-align: top; 
@@ -58,17 +57,16 @@ html, body {
  			padding-top: 20px;
 		}
 		a:hover { 
-		background-color: #ecf0f1;
-		border: solid #2c3e50;
+		background-color: #CD5C5C;
+		color: #F3EFE0;
 		} 
 	}
 }
 .logo {
 	border-radius: 50px; 
-	border: solid #2c3e50;
 	width: 100px;  
 	height: 100px; 
-	background: #ecf0f1;
+	background: #CD5C5C;
 	margin: 0 auto; 
 	overflow: auto;
 	position: relative;
@@ -78,6 +76,8 @@ html, body {
 		font-family: 'Oswald', sans-serif;
 		display: inline-block;
 		vertical-align: center; 
+		color: #F3EFE0; 
+
 	}
 }
 
@@ -97,18 +97,18 @@ html, body {
 /*static pages*/ 
 
 #intro { 
-	margin: 60px;
+	margin: 30px 30px 60px 60px;
 	height: 100%;
 	display: block; 
 	p { 
-	padding: 10px; 
+	margin: 0px 0px 30px 30px;  
 	} 
 	a:link{ 
-		background-color: #ecf0f1; 
 		font-size: 1em;
 		color: #2c3e50;}
 	a:hover { 
-		background-color: #ffff33; 
+		background-color: #cd5c5c;
+		color: #F3EFE0;  
 	}
 	ul { 
 		list-style: none;
@@ -119,11 +119,10 @@ html, body {
 
 #profile_pic {
 	border-radius: 50%;
-	border: solid #2c3e50;
-	width: 600px;  
-	height: 600px; 
+	width: 100px;  
+	height: 100px; 
 	display: block; 
-	float: right; 
+	float: left; 
 	margin: 0 auto; 
 	background-color: #000; 
 	position: relative;
@@ -165,21 +164,19 @@ h1, {
 	font-weight: 300; 
 	font-size: 4em;
 	color: #2c3e50; 
-	background-color: #ffff33;
 	display: inline-block;
 	padding: 5px;
 	text-transform: uppercase;
-	border: solid #2c3e50; 
 }
 
 h2 { 
 	font-family: 'Oswald', sans-serif; 
 	font-weight: 300; 
 	font-size: 2em; 
+	text-decoration: underline; 
 	text-align: center; 
 	padding-bottom: 2px;
 	color: #2c3e50;
-	background-color: #ffff33; 
 }
 
 h4 {
@@ -193,7 +190,7 @@ h4 {
 p{ 
 	font-family: 'Vollkorn', serif; 
 	font-size: 1.2em;
-	color: #2c3e50;
+	color: #F3EFE0;
 	padding: 10px;
 	text-align: justify;
 	ul { 
@@ -205,15 +202,5 @@ nav {
 	font-family: 'Oswald', sans-serif; 
 	font-size: 2.5em; 
 	font-weight: 300; 
-}
-
-
-
-a:hover { 
-	background-color: #ffff33; 
-} 
-
-a:visited { 
-	color: #2c3e50;
 }
 
