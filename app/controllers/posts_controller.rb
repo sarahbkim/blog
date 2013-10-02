@@ -6,10 +6,6 @@ class PostsController < ApplicationController
 		@posts = Post.all
 	end
 
-	def blog
-		@posts =Post.paginate(:page => params[:page], :per_page => 5)
-	end
-
 	def new
 		@post = Post.new
 	end

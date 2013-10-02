@@ -2,7 +2,6 @@
 <section id='intro'>
 <h1>Personal Pronouns</h1>
 	<br></br>
-<%= will_paginate %> 
 <% @posts.each do |post| %>
 <p>
 	<h2><%= post.title %></h2>
@@ -10,6 +9,5 @@
 	<h4><%= link_to "Read more", post_path(post) %></h4>
 </p>
 <% end %>
-<%= will_paginate %> 
 
 </section>
