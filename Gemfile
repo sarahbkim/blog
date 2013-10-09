@@ -9,6 +9,19 @@ group :development do
   gem 'sqlite3'
 end
 
+group :development, :test do 
+	gem 'rspec-rails' #includes RSpec in a wrapper to make it play nice with Rails 3 
+	gem 'factory_girl_rails' 
+end
+
+group :test do
+	gem 'faker' #generates emails, names and other placeholders for factories
+	gem 'capybara' #makes it easy to simulate user interaction
+	gem 'guard-rspec' #runs spec automatically when it detects changes
+	gem 'launchy' #opens default web browser upon failed integration specs 
+end
+
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
