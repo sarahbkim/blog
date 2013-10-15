@@ -8,7 +8,7 @@ development:
   encoding: utf8
   database: blog
   pool:
-  username: 
+  username: bohyunkim
   password: 
 
 # Warning: The database defined as "test" will be erased and
@@ -17,17 +17,17 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: myapp_test
+  database: blog 
   pool: 5
-  username: 
+  username: bohyunkim
   password: 
 
 
 production:
   adapter: postgresql
   encoding: utf8 
-  database: myapp_production
+  database: blog_production
   pool: 5
-  username: 
+  username: bohyunkim
   password: 
 
