@@ -131,10 +131,16 @@ margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 
 table {
 	margin: 15px; 
-	font-size: 0.8em; 
-	tbody tr th { 
+	width: 100%; 
+	font-size: 1em; 
+	th { 
 			font-family: 'Oswald', sans-serif;
-			font-size: 1.5em;  
+			font-size: 1.5em; 
+	} 
+	td { 
+		font-family: 'Vollkorn', serif; 
+		font-size: 1em;
+		padding: 10px;
 	}
 }
 

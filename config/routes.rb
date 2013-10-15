@@ -1,16 +1,18 @@
 Blog::Application.routes.draw do
 
+
+ #blog pages
+  resources :posts
+  get '/blog' => 'posts#index'
+
   #admin section for editing blog post pages, primarily 
-  get "admin/index"
-    namespace :admin do 
-      resource :posts
-    end
+  namespace :admin do 
+    resources :posts  
+  end
   get '/admin' => 'admin#index'
-  get 'admin/posts' => 'admin#posts' 
-  get 'admin/posts/new' => 'admin#posts#new'
-  
-  #static_pages & /blog routes 
-  get '/blog' => 'blog#index'
+
+
+  #static_pages
   get '/resources' => 'static_pages#resources'
   get '/experience' => 'static_pages#experience'
   root 'static_pages#home'
