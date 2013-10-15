@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: project_development
+  database: blog
   pool:
   username: 
   password: 
@@ -31,5 +31,3 @@ production:
   username: 
   password: 
 
-cucumber: 
-  <<: *TEST 
