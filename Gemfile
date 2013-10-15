@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 ruby "2.0.0"
 
 group :development do
-  gem 'pg' 
+  gem 'sqlite3'
 end
 
 group :development, :test do 
