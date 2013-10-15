@@ -1,0 +1,10 @@
+<section id="intro">  
+
+<% @post.each do |post| %> 
+<h2><%= post.title %> </h2>
+<p>
+<%= post.text %><br>
+<%= link_to "Continue Reading", post %>
+</p>
+<% end %> 
+</section> 
