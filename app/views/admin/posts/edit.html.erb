@@ -1,7 +1,7 @@
 <h1>Editing post</h1>
 <section id='intro'> 
 
-<%= form_for([:admin, @post]) do |f| %> 
+<%= form_for :post, url: admin_posts_path do |f| %> 
 
    <p>
     <%= f.label :title %><br>
@@ -10,7 +10,7 @@
  
   <p>
     <%= f.label :text %><br>
-    <%= f.cktext_area :text, :ckeditor => { :language => "uk" } %>  
+    <%= f.cktext_area :text, :ckeditor => { :language => "usa" } %>  
   </p>
  
  <p> 

@@ -1,7 +1,7 @@
 <h1>New Posts</h1>
 <section id='intro'> 
 
-<%= form_for(Post.new) do |f| %> 
+<%= form_for :post, url: admin_posts_path do |f| %> 
 
    <p>
     <%= f.label :title %><br>
@@ -10,7 +10,7 @@
  
   <p>
     <%= f.label :text %><br>
-    <%= f.cktext_area :text, :ckeditor => { :language => "uk" } %>  
+    <%= f.cktext_area :text, :ckeditor => { :language => "usa" } %>  
   </p>
  
  <p> 
@@ -28,8 +28,3 @@
 
 <%= link_to 'Back', admin_posts_path %> 
 </section>
-<!-- rich-text editors: 
-http://ckeditor.com/download
-http://www.1stwebdesigner.com/design/10-best-wysiwyg-text-and-html-editors-for-your-next-project/
-
---> 
