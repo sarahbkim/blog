@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -7,6 +7,7 @@ ruby "2.0.0"
 
 group :development do
   gem 'pg' 
+  gem 'lunchy' 
 end
 
 group :development, :test do 
@@ -55,6 +56,10 @@ end
 
 #paginate the blog posts 
 gem 'will_paginate', '~> 3.0'
+
+#rich text editor for blog
+gem 'ckeditor'
+gem 'paperclip'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -1,14 +1,16 @@
 <h1>New Posts</h1>
 <section id='intro'> 
-<%= form_for :post, url: admin_posts_path do |f| %>
-  <p>
+
+<%= form_for(Post.new) do |f| %> 
+
+   <p>
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </p>
  
   <p>
     <%= f.label :text %><br>
-    <%= f.text_area :text %>
+    <%= f.cktext_area :text, :ckeditor => { :language => "uk" } %>  
   </p>
  
  <p> 
@@ -20,8 +22,6 @@
   <%= f.label :meta_desc %> <br> 
   <%= f.text_area :meta_desc %> 
   </p>
-
-  <p>
     <%= f.submit %>
   </p>
 <% end %>
