@@ -1,0 +1,176 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*universals*/
+* {
+  padding: 0;
+  margin: 0; }
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3efe0; }
+
+.wrapper {
+  height: 100%; }
+
+#main {
+  background-color: #CD5C5C;
+  width: 75%;
+  min-height: 100%;
+  vertical-align: top;
+  position: relative;
+  float: right; }
+
+#header {
+  float: left;
+  min-height: 100%;
+  vertical-align: top;
+  width: 25%; }
+  #header #nav {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0; }
+    #header #nav ul {
+      list-style: none; }
+    #header #nav li {
+      text-align: center;
+      width: 25%; }
+    #header #nav a {
+      display: block;
+      color: #2c3e50;
+      width: 100%;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+    #header #nav a:hover {
+      background-color: #CD5C5C;
+      color: #F3EFE0; }
+
+.logo {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background: #CD5C5C;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 60px; }
+  .logo p {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    vertical-align: center;
+    color: #F3EFE0; }
+
+#social_media {
+  .clear: both;
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0; }
+  #social_media ul {
+    list-style: none; }
+  #social_media li {
+    float: left; }
+
+/*static pages*/
+#intro {
+  margin: 30px 30px 60px 60px;
+  height: 100%;
+  display: block; }
+  #intro p {
+    padding-left: 80px;
+    padding-right: 80px; }
+  #intro a:link {
+    font-size: 1em;
+    color: #2c3e50; }
+  #intro a:hover {
+    background-color: #cd5c5c;
+    color: #F3EFE0; }
+  #intro ul {
+    list-style: none;
+    font-family: 'Vollkorn', serif; }
+
+/*Opera Fix*/
+body:before {
+  /* thanks to Maleika (Kohoutec)*/
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+  /* thank you Erik J - negate effect of float*/ }
+
+/*blog section layouts*/
+table {
+  margin: 15px;
+  width: 100%;
+  font-size: 1em; }
+  table th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em; }
+  table td {
+    font-family: 'Vollkorn', serif;
+    font-size: 1em;
+    padding: 10px; }
+
+.form {
+  display: inline-block;
+  float: center;
+  font-family: 'Oswald', sans-serif;
+  color: #ecf0f1;
+  font-size: 1em; }
+
+/*typography*/
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  color: #2c3e50;
+  padding: 5px;
+  text-transform: uppercase;
+  text-align: center; }
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 2px;
+  color: #2c3e50; }
+
+h4 {
+  font-size: 1em;
+  display: block;
+  float: right;
+  font-family: 'Vollkorn', serif;
+  padding-bottom: 2px; }
+
+p {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.2em;
+  color: #F3EFE0;
+  padding: 10px; }
+  p ul {
+    font-size: 1em; }
+
+nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  font-weight: 300; }
