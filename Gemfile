@@ -22,6 +22,8 @@ group :test do
 	gem 'launchy' #opens default web browser upon failed integration specs 
 end
 
+#rich text editor
+gem 'tinymce-rails'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -57,9 +59,6 @@ end
 #paginate the blog posts 
 gem 'will_paginate', '~> 3.0'
 
-#rich text editor for blog
-gem 'ckeditor', group: [:development, :production]
-gem 'paperclip', group: [:development, :production]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
