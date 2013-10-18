@@ -1,7 +1,7 @@
 Blog::Application.routes.draw do
 
  #blog pages
-  resources :posts
+  resources :posts 
   get '/blog' => 'posts#index'
 
   #admin section for editing blog post pages, primarily 

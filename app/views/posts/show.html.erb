@@ -1,7 +1,7 @@
 <section id='intro'> 
 
 	<h2><%= @post.title %></h2>
-	<p><%= @post.text %> <br>
+	<p><%= raw @post.text %> <br>
 
 <%= link_to "Back", blog_path %>
 
