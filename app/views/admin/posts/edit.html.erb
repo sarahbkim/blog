@@ -1,31 +1,7 @@
 <h1>Editing post</h1>
 <section id='intro'> 
 
-<%= form_for :post, url: admin_post_path(@post.id), method: :patch do |f| %> 
-
-   <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
- 
-  <p>
-    <%= f.label :text %><br>
-    <%= f.text_area :text, :class => "tinymce", :rows => 40, :cols => 120 %> 
-    <%= tinymce %> 
-  </p>
- 
- <p> 
-  <%= f.label :meta_title %><br> 
-  <%= f.text_field :meta_title %> 
-  </p>
-
-  <p>
-  <%= f.label :meta_desc %> <br> 
-  <%= f.text_area :meta_desc %> 
-  </p>
-    <%= f.submit %>
-  </p>
-<% end %>
+<%= render "form" %> 
 
 <%= link_to 'Show', admin_post_path(@post) %> | 
 <%= link_to 'Back', admin_post_path %> 

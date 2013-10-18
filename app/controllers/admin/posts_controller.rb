@@ -9,7 +9,8 @@ class Admin::PostsController < ApplicationController
 
 	end
 
-	def create
+#there is something wrong with my create action.... 
+	def create 
 		@post = Post.new(post_params)
 
 		@post.save
