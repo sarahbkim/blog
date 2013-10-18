@@ -58,8 +58,8 @@ end
 gem 'will_paginate', '~> 3.0'
 
 #rich text editor for blog
-gem 'ckeditor'
-gem 'paperclip'
+gem 'ckeditor', group: [:development, :production]
+gem 'paperclip', group: [:development, :production]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

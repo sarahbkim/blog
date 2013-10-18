@@ -15,16 +15,7 @@
 	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
-	<%= javascript_include_tag 'ckeditor/ckeditor.js' %>
 
-	<script type="text/javascript">$(document).ready(function() {
-    if ($('textarea').length > 0) {
-        var data = $('textarea');
-        $.each(data, function(i) {
-            CKEDITOR.replace(data[i].id);
-        });
-    }
-});</script>
 
   <!--[if !IE 7]>
 	<style type="text/css">
