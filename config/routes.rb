@@ -1,7 +1,5 @@
 Blog::Application.routes.draw do
 
-
-  mount Ckeditor::Engine => '/ckeditor'
  #blog pages
   resources :posts
   get '/blog' => 'posts#index'
