@@ -13,8 +13,6 @@ html, body {
 	height: 100%;
 	margin: 0px; 
 	padding: 0px;
-	background-color: #f3efe0; 
-
 } 
 
 .wrapper {
@@ -24,60 +22,56 @@ html, body {
 
 
 #main { 
-	background-color: #CD5C5C; 
-	width: 75%; 
-	min-height: 100%; 
+	width: 100%; 
+	min-height: 90%; 
 	vertical-align: top;  
 	position: relative; 
-	float: right; 
 }
 
 
 #header {
-	float: left;
-	min-height: 100%; 
-	vertical-align: top; 
-	width: 25%;
+	float: top;
 	#nav {
-		position: absolute; 
-		margin: auto;
-		left: 0; right: 0;
+		width: 100%; 
+		margin-bottom: 10px; 
 		ul { 
+			float: center;
 			list-style: none;
+			margin: 0 auto; 
+			padding-bottom: 10px; 
+			text-align: center; 
+			background-color: #000; 
 		}
 		li { 
-			text-align: center;
-			width: 25%; 
+			display: inline;
+			a { 
+				display: inline-block;
+				padding: 10px; 
+			}
 		}
-		a { 
-			display: block;
-			color: #2c3e50;
- 			width: 100%;
- 			padding-bottom: 20px;  
- 			padding-top: 20px;
-		}
-		a:hover { 
-		background-color: #CD5C5C;
-		color: #F3EFE0;
-		} 
+	
 	}
-}
-.logo {
-	border-radius: 50px; 
-	width: 100px;  
-	height: 100px; 
-	background: #CD5C5C;
-	margin: 0 auto; 
-	overflow: auto;
-	position: relative;
-	margin-bottom: 60px;
-	margin-top: 60px; 
-	p { 
-		font-family: 'Oswald', sans-serif;
-		display: inline-block;
-		vertical-align: center; 
-		color: #F3EFE0; 
+	#header_img {
+		border-radius: 50%; 
+		width: 150px;  
+		height: 150px; 
+		display: block; 
+		margin: 0 auto; 
+	}
+} 
 
+
+#footer { 
+	width: 100%; 
+	bottom: 0; 
+	background-color: #000;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	p { 
+		color: #fff; 
+		font-size: .6em;
+		display: block;
+		text-align: center; 
 	}
 }
 
@@ -85,7 +79,7 @@ html, body {
 		.clear: both; 
 		float: right;
 		position: fixed;
-		top: 0; 
+		bottom: 0; 
 		right: 0; 
 		ul { 
 			list-style: none; 
@@ -101,20 +95,10 @@ html, body {
 	height: 100%;
 	display: block; 
 	p { 
-	padding-left: 80px; 
-	padding-right: 80px; 
-	} 
-	a:link{ 
-		font-size: 1em;
-		color: #2c3e50;}
-	a:hover { 
-		background-color: #cd5c5c;
-		color: #F3EFE0;  
-	}
-	ul { 
-		list-style: none;
-		font-family: 'Vollkorn', serif;
-	}
+	padding-left: 30px; 
+	padding-right: 30px; 
+	margin: 10px; 
+}
 }
 
 /*Opera Fix*/
@@ -154,46 +138,36 @@ table {
 
 
 /*typography*/ 
-h1, { 
-	font-family: 'Oswald', sans-serif; 
-	font-size: 5em;
-	color: #2c3e50; 
-	padding: 5px;
-	text-transform: uppercase;
+h1 { 
+	font-family: 'Playfair Display', serif; 
+	font-size: 2em;
+	font-weight: 900;
+	font-style: italic; 
 	text-align: center; 
+	margin: 10px; 
 }
 
 h2 { 
-	font-family: 'Oswald', sans-serif; 
-	font-weight: 300; 
-	font-size: 2em; 
-	text-decoration: underline; 
+	font-family: 'lato', sans-serif; 
+	font-size: 1.5em;
+	font-weight: 900;
 	text-align: center; 
-	padding-bottom: 2px;
-	color: #2c3e50;
+	margin: 10px; 
 }
 
-h4 {
-	font-size: 1em; 
-	display: block; 
-	float: right;
-	font-family: 'Vollkorn', serif; 
-	padding-bottom: 2px; 
-} 
 
 p{ 
-	font-family: 'Vollkorn', serif; 
-	font-size: 1.2em;
-	color: #F3EFE0;
-	padding: 10px;
-	ul { 
-		font-size: 1em; 
-	}
+	font-family: 'Lato', sans-serif; 
+	font-size: 1em;
 }
 
 nav { 
-	font-family: 'Oswald', sans-serif; 
-	font-size: 2.5em; 
+	font-family: 'Lato', sans-serif; 
+	font-size: .8em; 
 	font-weight: 300; 
+	color: #fff;
+	a { 
+		color: #fff; 
+	}
 }
 
