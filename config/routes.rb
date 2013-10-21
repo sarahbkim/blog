@@ -1,5 +1,6 @@
 Blog::Application.routes.draw do
 
+
  #blog pages
   resources :posts, :only => [:show, :index]
   get '/blog' => 'posts#index'
@@ -7,10 +8,11 @@ Blog::Application.routes.draw do
 
   #admin section for editing blog post pages, primarily 
   namespace :admin do 
-    resources :posts  
+    resources :posts 
+    resources :users
   end
-  get '/admin' => 'admin#index'
 
+get '/admin' => 'admin/posts#index'
 
   #static_pages
   get '/resources' => 'static_pages#resources'

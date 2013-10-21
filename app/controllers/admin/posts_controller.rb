@@ -1,4 +1,4 @@
-class Admin::PostsController < ApplicationController
+class Admin::PostsController < ApplicationController	
 
 	def index
 		@post = Post.all
@@ -14,7 +14,7 @@ class Admin::PostsController < ApplicationController
 		@post = Post.new(post_params)
 
 		@post.save
-		redirect_to admin_post_path(@post)
+		redirect_to admin_post_path@post 
 	end
 
 	def edit
