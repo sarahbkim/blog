@@ -12,7 +12,7 @@ Blog::Application.routes.draw do
     resources :users
   end
 
-get '/admin' => 'admin/posts#index'
+get '/admin' => 'admin#index'
 
   #static_pages
   get '/resources' => 'static_pages#resources'

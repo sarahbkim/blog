@@ -1,10 +1,15 @@
-<section id="intro">  
+<% provide(:title, 'Blog | S:K') %> 
 
+<section id="intro">  
 <% @post.each do |post| %> 
 <h2><%= post.title %> </h2>
+<p id="cate_tag">
+<%= image_tag "posts_category.png", id: "cate_img" %>category 1, category 2</p>
 <p>
 <%= raw post.text %><br>
-<%= link_to "Continue Reading", post %>
+
+<%= link_to "Continue", post, id: "right" %>
+
 </p>
 <% end %> 
 </section> 

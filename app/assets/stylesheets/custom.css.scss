@@ -9,6 +9,7 @@ vertical margins (top and bottom) to add spacing, else those margins get added t
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
 
+
 html, body { 
 	height: 100%;
 	margin: 0px; 
@@ -23,46 +24,60 @@ html, body {
 
 #main { 
 	width: 100%; 
-	min-height: 90%; 
-	vertical-align: top;  
-	position: relative; 
+	margin-top: 250px;
+	overflow: auto;
+	height: 100%;
+}
+
+#header { 
+	position: fixed;
+	width: 100%; 
+	top: 0; 
+	height: 60px;
+	margin: 0 auto;
 }
 
 
-#header {
-	float: top;
-	#nav {
-		width: 100%; 
-		margin-bottom: 30px; 
+#nav {
+	width: 100%; 
+	background-color: #000;
+	margin-bottom: 20px;
 		ul { 
 			float: center;
 			list-style: none;
 			margin: 0 auto; 
 			padding-bottom: 10px; 
 			text-align: center; 
-			background-color: #000; 
-		}
-		li { 
-			display: inline;
-			a { 
-				display: inline-block;
-				padding: 10px; 
 			}
+			li { 
+				display: inline;
+				a { 
+					display: inline-block;
+					padding: 10px; 
+				}
 		}
+	#pointer { 
+	display: block; 
+	float: center;
+	margin: 0 auto; 
+	padding-bottom: 5px; 
+	width: 20px; height: 20px; 
+	}
+}
 	
-	}
-	#header_img {
-		border-radius: 50%; 
-		width: 150px; height: 150px;
-		display: block; 
-		margin: 0 auto; 
-	}
-} 
+
+#header_img {
+	border-radius: 50%; 
+	width: 150px;
+	display: block; 
+	margin: 0 auto; 
+}
+
 
 
 #footer { 
 	width: 100%; 
-	bottom: 0; 
+	bottom: 0;
 	background-color: #000;
 	padding-top: 10px; 
 	padding-bottom: 10px; 
@@ -135,6 +150,15 @@ table {
 	font-size: 1em; 
 	}
 
+#left {
+	display: block; 
+	float: left; 
+}
+
+#right { 
+	display: block; 
+	float: right; 
+}
 
 /*typography*/ 
 h1 { 
@@ -155,9 +179,13 @@ h2 {
 }
 
 
-p{ 
+p, a{ 
 	font-family: 'Lato', sans-serif; 
 	font-size: 1em;
+}
+
+#cate_tag{
+	font-size: .7em; 
 }
 
 nav { 
@@ -167,7 +195,12 @@ nav {
 	color: #fff;
 	a { 
 		color: #fff; 
+
 	}
 }
 
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
