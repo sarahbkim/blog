@@ -8,6 +8,6 @@ def create
 	else
 		flash.now.alert = "Email or password is invalid" 
 end
-
+end
 
 end
