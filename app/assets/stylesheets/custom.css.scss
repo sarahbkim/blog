@@ -80,6 +80,7 @@ html, body {
 	background-color: #000;
 	padding-top: 10px; 
 	padding-bottom: 10px; 
+	margin-top: 30px; 
 	p { 
 		color: #fff; 
 		font-size: .6em;
@@ -161,18 +162,17 @@ table {
 
 /*typography*/ 
 h1 { 
-	font-family: 'Playfair Display', serif; 
+	font-family: 'Bitter', serif; 
 	font-size: 2em;
-	font-weight: 900;
-	font-style: italic; 
+	font-weight: 700;
 	text-align: center; 
 	margin: 10px; 
 }
 
 h2 { 
-	font-family: 'lato', sans-serif; 
+	font-family: 'Bitter', serif; 
 	font-size: 1.5em;
-	font-weight: 900;
+	font-weight: 400;
 	text-align: center; 
 	margin: 10px; 
 }
@@ -184,13 +184,14 @@ p, a{
 }
 
 #cate_tag{
-	font-size: .7em; 
+	font-size: .7em;
+	font-family: 'bitter', serif; 
 }
 
 nav { 
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Bitter', serif; 
 	font-size: .8em; 
-	font-weight: 300; 
+	font-weight: 400; 
 	color: #fff;
 	a { 
 		color: #fff; 
