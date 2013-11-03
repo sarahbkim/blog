@@ -2,6 +2,7 @@ default:
   plugins:
     - image
     - link
+    - code
 
 alternate:
   selector: textarea.table-editor
