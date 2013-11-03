@@ -1,5 +1,4 @@
 <section id='intro'> 
-
 	<h2><%= @post.title %></h2><br>
 	<p><%= raw @post.text %> <br>
  <p id="cate_tag"><%= image_tag "posts_category.png", id: "cate_img" %>category 1, category 2</p><br>
@@ -7,7 +6,7 @@
 <%= link_to image_tag('pointer-left.png'), blog_path, id: "left" %>
 <%= link_to image_tag('pointer-right.png'), blog_path, id: "right" %>
 
-
+<!-- disqus comments --> 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

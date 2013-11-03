@@ -1,3 +1,5 @@
+
+
 <%= form_for [:admin, @post] do |f| %>
 
    <p>
@@ -7,19 +9,10 @@
  
   <p>
     <%= f.label :text %><br>
-    <%= f.text_area :text, :class => "tinymce", :rows => 40, :cols => 120 %>
+    <%= f.text_area :text, :class => "tinymce" %>
     <%= tinymce %>
   </p>
- 
- <p>
-  <%= f.label :meta_title %><br>
-  <%= f.text_field :meta_title %>
-  </p>
 
-  <p>
-  <%= f.label :meta_desc %> <br>
-  <%= f.text_area :meta_desc %>
-  </p>
     <%= f.submit %>
   </p>
 <% end %>

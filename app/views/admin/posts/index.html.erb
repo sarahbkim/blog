@@ -13,8 +13,6 @@
   <tr>
     <th>Title</th>
     <th>Text</th>
-    <th>Meta Title</th>
-    <th>Meta Description</th>
     <th>View</th>
     <th>Edit</th>
     <th>Delete</th>
@@ -24,8 +22,6 @@
     <tr>
       <td><%= post.title %></td>
       <td><%= raw post.text %></td>
-      <td><%= post.meta_title %></td>
-      <td><%= post.meta_desc %></td>
       <td><%= link_to "Show", admin_post_path(post) %></td>
       <td><%= link_to 'Edit', edit_admin_post_path(post) %></td>
       <td><%= link_to "Delete", admin_post_path(post), method: :delete, data: { confirm: "Are you sure" } %></td>

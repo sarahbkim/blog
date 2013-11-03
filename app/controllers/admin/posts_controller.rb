@@ -1,4 +1,5 @@
-class Admin::PostsController < ApplicationController	
+class Admin::PostsController < ApplicationController
+	http_basic_authenticate_with name: "sk", password: "Psalm139!", except: :index
 
 	def index
 		@post = Post.all
@@ -46,7 +47,7 @@ class Admin::PostsController < ApplicationController
 
 private
 	def post_params
-		params.require(:post).permit(:title, :text, :meta_title, :meta_desc)
+		params.require(:post).permit(:title, :text)
 	end
 
 end

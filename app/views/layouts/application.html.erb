@@ -4,8 +4,7 @@
 
   <title><%= yield(:title) %></title>
 
-
-  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %> 
+ <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %> 
 
   <!-- FONTS --> 
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -13,15 +12,14 @@
 <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 
 <%= csrf_meta_tag %>
-<%= tinymce_assets %>
 
  <!-- Javascript Stuff --> 
 
-	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-  <!--[if !IE 7]>
+<!--[if !IE 7]>
 	<style type="text/css">
 		#wrap {display:table;height:100%}
 	</style>
@@ -31,18 +29,18 @@
 <body>
 	<div class="wrapper">
 
-		<div id="header"> 
-			<%= render 'layouts/header' %>
-		</div>
-			<div style="clear:both;"></div>
-		<div id="main"> 
-			<%= image_tag "me.JPG", id: "header_img" %> 
-			<%= yield %>
-		</div>  
+	<div id="header"> 
+		<%= render 'layouts/header' %>
+	</div>
 
-		<div id="footer"> 
-		<%= render 'layouts/footer' %>
-		</div>
+	<div id="main"> 
+		<%= image_tag "me.JPG", id: "header_img" %> 
+		<%= yield %>
+	</div>  
+
+	<div id="footer"> 
+	<%= render 'layouts/footer' %>
+	</div>
 		
 </body>
 </html>
