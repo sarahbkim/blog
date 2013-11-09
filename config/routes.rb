@@ -1,16 +1,20 @@
 Blog::Application.routes.draw do
 
 
- #blog pages
+#blog pages
+resources :categories do 
   resources :posts, :only => [:show, :index]
-  get '/blog' => 'posts#index'
+end
 
 
-  #admin section for editing blog post pages, primarily 
-  namespace :admin do 
-    resources :posts 
-    resources :users
+#admin section for editing blog post pages, primarily 
+
+namespace :admin do 
+  resources :categories do 
+    resources :posts  
   end
+end
+
 
 get '/admin' => 'admin/posts#index'
 
@@ -18,7 +22,7 @@ get '/admin' => 'admin/posts#index'
   get '/resources' => 'static_pages#resources'
   get '/experience' => 'static_pages#experience'
   root 'static_pages#home'
-
+  
   # Creating nice URLS --> http://railscasts.com/episodes/314-pretty-urls-with-friendlyid?view=asciicast#
 
   # The priority is based upon order of creation: first created -> highest priority.
