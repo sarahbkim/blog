@@ -2,17 +2,14 @@ Blog::Application.routes.draw do
 
 
 #blog pages
-resources :categories do 
   resources :posts, :only => [:show, :index]
-end
+
 
 
 #admin section for editing blog post pages, primarily 
 
 namespace :admin do 
-  resources :categories do 
     resources :posts  
-  end
 end
 
 
