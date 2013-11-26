@@ -29,6 +29,7 @@ gem 'tinymce-rails'
 gem 'pg'
 
 gem 'rails_12factor', group: :production
+gem 'heroku_rails_deflate', :group => :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
