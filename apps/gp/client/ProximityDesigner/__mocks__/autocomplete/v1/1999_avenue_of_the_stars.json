@@ -1,0 +1,6 @@
+{
+  "version": 4,
+  "status": "error",
+  "type": "Auth",
+  "message": "Requested resource could not be found. Please check that all elements of your API path are correct."
+}
