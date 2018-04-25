@@ -1,0 +1,224 @@
+{
+  "version": 4,
+  "status": "ok",
+  "response": {
+    "data": {
+      "chain": {
+        "count": 0,
+        "list": []
+      },
+      "category": {
+        "count": 0,
+        "list": []
+      },
+      "name": {
+        "list": []
+      },
+      "place": {
+        "count": 73,
+        "list": [
+          {
+            "id": "25d34136-cd71-418c-ba53-228c1bafce11",
+            "type": "place",
+            "name": "Mrs Winston's Green Grocery",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"25d34136-cd71-418c-ba53-228c1bafce11\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2225d34136-cd71-418c-ba53-228c1bafce11%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "168cc55c-4824-4b66-8ba3-5f6409a60f16",
+            "type": "place",
+            "name": "Our Lady Star of the Sea",
+            "fields": {
+              "address": "1100 8th Ave N",
+              "locality": "North Myrtle Beach",
+              "region": "SC",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"168cc55c-4824-4b66-8ba3-5f6409a60f16\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22168cc55c-4824-4b66-8ba3-5f6409a60f16%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "51a97bde-d196-483f-a203-6d3ee8515a3d",
+            "type": "place",
+            "name": "SunAmerica",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"51a97bde-d196-483f-a203-6d3ee8515a3d\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2251a97bde-d196-483f-a203-6d3ee8515a3d%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "68cba29e-e3b8-433e-8791-b2600e45874a",
+            "type": "place",
+            "name": "Xcast Labs",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"68cba29e-e3b8-433e-8791-b2600e45874a\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2268cba29e-e3b8-433e-8791-b2600e45874a%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "680a9f9d-1c64-42da-add7-e6e0cb27b7d5",
+            "type": "place",
+            "name": "Starbucks",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"680a9f9d-1c64-42da-add7-e6e0cb27b7d5\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22680a9f9d-1c64-42da-add7-e6e0cb27b7d5%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "64ef8b4e-fe32-44a8-b638-abd412f5c291",
+            "type": "place",
+            "name": "O'melveny & Myers",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"64ef8b4e-fe32-44a8-b638-abd412f5c291\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2264ef8b4e-fe32-44a8-b638-abd412f5c291%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "a9b9fda1-c956-44a4-9b35-b97d3b07f8a6",
+            "type": "place",
+            "name": "Miller Barondess",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"a9b9fda1-c956-44a4-9b35-b97d3b07f8a6\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22a9b9fda1-c956-44a4-9b35-b97d3b07f8a6%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "2895805e-d00e-43e7-b17d-e98b72827733",
+            "type": "place",
+            "name": "Ubs Warburg",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"2895805e-d00e-43e7-b17d-e98b72827733\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%222895805e-d00e-43e7-b17d-e98b72827733%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "357eb7a3-0261-4c69-ad18-43501c7cf8d4",
+            "type": "place",
+            "name": "1999 Sundries",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"357eb7a3-0261-4c69-ad18-43501c7cf8d4\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22357eb7a3-0261-4c69-ad18-43501c7cf8d4%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "ba282e35-d322-45c1-8597-dc90954dd924",
+            "type": "place",
+            "name": "JP Morgan Securities",
+            "fields": {
+              "address": "1999 Avenue of the Stars",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"ba282e35-d322-45c1-8597-dc90954dd924\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22ba282e35-d322-45c1-8597-dc90954dd924%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          }
+        ]
+      },
+      "topResults": {
+        "count": 1,
+        "list": [
+          {
+            "type": "address_search",
+            "name": "1999 Avenue of the Stars",
+            "json": {
+              "filters": "{\"address\":\"1999 Avenue of the Stars\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22address%22%3A%221999%20Avenue%20of%20the%20Stars%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000",
+            "description": "Address is 1999 Avenue of the Stars"
+          }
+        ]
+      },
+      "suggestions": {
+        "count": 0,
+        "list": []
+      }
+    }
+  }
+}
