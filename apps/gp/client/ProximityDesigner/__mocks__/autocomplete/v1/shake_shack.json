@@ -1,0 +1,335 @@
+{
+  "version": 4,
+  "status": "ok",
+  "response": {
+    "data": {
+      "chain": {
+        "count": 0,
+        "list": []
+      },
+      "category": {
+        "count": 0,
+        "list": []
+      },
+      "place": {
+        "count": 150,
+        "list": [
+          {
+            "id": "66e71984-ec28-4a1b-b4d9-f051459d1857",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "11 Madison Ave",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"66e71984-ec28-4a1b-b4d9-f051459d1857\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2266e71984-ec28-4a1b-b4d9-f051459d1857%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "0caf5cf0-cd40-012e-5616-003048cad9da",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "691 8th Ave",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"0caf5cf0-cd40-012e-5616-003048cad9da\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%220caf5cf0-cd40-012e-5616-003048cad9da%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "5cbf7526-a517-41d1-b527-e9b3ddfdcb0d",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "154 E 86th St",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"5cbf7526-a517-41d1-b527-e9b3ddfdcb0d\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%225cbf7526-a517-41d1-b527-e9b3ddfdcb0d%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "0cb4ac40-cd40-012e-5616-003048cad9da",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "409 Fulton St",
+              "locality": "Brooklyn",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"0cb4ac40-cd40-012e-5616-003048cad9da\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%220cb4ac40-cd40-012e-5616-003048cad9da%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "db75bfc6-ad25-4ba3-8bc1-27cbae7b3aac",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "215 Murray St",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"db75bfc6-ad25-4ba3-8bc1-27cbae7b3aac\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22db75bfc6-ad25-4ba3-8bc1-27cbae7b3aac%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "078bc7a8-2652-4898-a63e-b59ddeeb99dd",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "49 Grand Central Terminal",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"078bc7a8-2652-4898-a63e-b59ddeeb99dd\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22078bc7a8-2652-4898-a63e-b59ddeeb99dd%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "9bd23b52-4f4b-49b7-ba3c-9c42158d5c06",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "12301 Roosevelt Ave",
+              "locality": "New York",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"9bd23b52-4f4b-49b7-ba3c-9c42158d5c06\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%229bd23b52-4f4b-49b7-ba3c-9c42158d5c06%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "d8d34599-ef6a-4c23-be08-7b42fb5587cc",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "66 E Ohio St",
+              "locality": "Chicago",
+              "region": "IL",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"d8d34599-ef6a-4c23-be08-7b42fb5587cc\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22d8d34599-ef6a-4c23-be08-7b42fb5587cc%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "aa7cd912-cd2e-42a7-94d6-51421e18256e",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "860 Old Country Rd",
+              "locality": "Garden City",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"aa7cd912-cd2e-42a7-94d6-51421e18256e\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22aa7cd912-cd2e-42a7-94d6-51421e18256e%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "1fc961b8-ab6a-4585-9d33-accdd49c7a14",
+            "type": "place",
+            "name": "Shake Shack",
+            "fields": {
+              "address": "49 Boylston St",
+              "locality": "Chestnut Hill",
+              "region": "MA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"1fc961b8-ab6a-4585-9d33-accdd49c7a14\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%221fc961b8-ab6a-4585-9d33-accdd49c7a14%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          }
+        ]
+      },
+      "name": {
+        "list": [
+          {
+            "type": "name",
+            "name": "shake shack",
+            "count": 117,
+            "json": {
+              "filters": "{\"name\":\"shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "vitamin shack & shakes",
+            "count": 7,
+            "json": {
+              "filters": "{\"name\":\"vitamin shack & shakes\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22vitamin%20shack%20%26%20shakes%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "crystal cove shake shack",
+            "count": 3,
+            "json": {
+              "filters": "{\"name\":\"crystal cove shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22crystal%20cove%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "58 shake & pizza shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"58 shake & pizza shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%2258%20shake%20%26%20pizza%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "emma's shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"emma's shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22emma's%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "healthy shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"healthy shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22healthy%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "kalis shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"kalis shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22kalis%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "moro shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"moro shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22moro%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "ross shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"ross shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22ross%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "ruby's shake shack",
+            "count": 1,
+            "json": {
+              "filters": "{\"name\":\"ruby's shake shack\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22ruby's%20shake%20shack%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          }
+        ]
+      },
+      "topResults": {
+        "count": 1,
+        "list": [
+          {
+            "type": "name_search",
+            "name": "shake shack",
+            "json": {
+              "filters": "{\"name\":{\"$search\":\"shake shack\"},\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%7B%22%24search%22%3A%22shake%20shack%22%7D%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000",
+            "description": "Name contains shake shack"
+          }
+        ]
+      },
+      "suggestions": {
+        "count": 0,
+        "list": []
+      }
+    }
+  }
+}
