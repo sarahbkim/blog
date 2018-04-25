@@ -1,0 +1,334 @@
+{
+  "version": 4,
+  "status": "ok",
+  "response": {
+    "data": {
+      "category": {
+        "count": 0,
+        "list": []
+      },
+      "chain": {
+        "count": 0,
+        "list": []
+      },
+      "place": {
+        "count": 1434,
+        "list": [
+          {
+            "id": "c5485dfd-82f4-4d79-a291-d85f3a06a01d",
+            "type": "place",
+            "name": "San Antonio International Airport (SAT)",
+            "fields": {
+              "address": "9800 Airport Blvd",
+              "locality": "San Antonio",
+              "region": "TX",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"c5485dfd-82f4-4d79-a291-d85f3a06a01d\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22c5485dfd-82f4-4d79-a291-d85f3a06a01d%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "e52c2878-3c27-43a7-bd4e-f6f124ba17b9",
+            "type": "place",
+            "name": "Los Angeles International Airport (LAX)",
+            "fields": {
+              "address": "1 World Way",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"e52c2878-3c27-43a7-bd4e-f6f124ba17b9\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22e52c2878-3c27-43a7-bd4e-f6f124ba17b9%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "c9d64b4f-98e9-4766-b625-e775877f016d",
+            "type": "place",
+            "name": "Economy Parking - ATL Airport",
+            "fields": {
+              "address": "4690 Riverdale Rd",
+              "locality": "Atlanta",
+              "region": "GA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"c9d64b4f-98e9-4766-b625-e775877f016d\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22c9d64b4f-98e9-4766-b625-e775877f016d%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "8e8f180c-03c6-43a1-af64-df563e13d237",
+            "type": "place",
+            "name": "Luxor Hotel and Casino",
+            "fields": {
+              "address": "3900 Las Vegas Blvd S",
+              "locality": "Las Vegas",
+              "region": "NV",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"8e8f180c-03c6-43a1-af64-df563e13d237\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%228e8f180c-03c6-43a1-af64-df563e13d237%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "4344c644-8900-4ee2-8ca3-c4d02bfc5c71",
+            "type": "place",
+            "name": "Sheraton Gateway Los Angeles Hotel",
+            "fields": {
+              "address": "6101 W Century Blvd",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"4344c644-8900-4ee2-8ca3-c4d02bfc5c71\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%224344c644-8900-4ee2-8ca3-c4d02bfc5c71%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "44619141-b020-4733-8535-3b7098d4f13d",
+            "type": "place",
+            "name": "Park 'N Fly",
+            "fields": {
+              "address": "6351 W Century Blvd",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"44619141-b020-4733-8535-3b7098d4f13d\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2244619141-b020-4733-8535-3b7098d4f13d%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "d9d94e16-bd4b-451c-9893-028e3aa0ca2a",
+            "type": "place",
+            "name": "Terminal 5",
+            "fields": {
+              "address": "500 World Way",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"d9d94e16-bd4b-451c-9893-028e3aa0ca2a\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22d9d94e16-bd4b-451c-9893-028e3aa0ca2a%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "22c5f49e-b7a2-47b3-aee8-4c337d174709",
+            "type": "place",
+            "name": "LAX Tom Bradley Int'l terminal",
+            "fields": {
+              "locality": "Downey",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"22c5f49e-b7a2-47b3-aee8-4c337d174709\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%2222c5f49e-b7a2-47b3-aee8-4c337d174709%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "075b649b-1a9a-4f13-8290-32b88407011c",
+            "type": "place",
+            "name": "Kingsborough Community College",
+            "fields": {
+              "address": "2001 Oriental Blvd",
+              "locality": "Brooklyn",
+              "region": "NY",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"075b649b-1a9a-4f13-8290-32b88407011c\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22075b649b-1a9a-4f13-8290-32b88407011c%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "id": "1c15310f-3a36-472e-9342-b2b3dc3e1482",
+            "type": "place",
+            "name": "Southwest Airlines",
+            "fields": {
+              "address": "100 World Way",
+              "locality": "Los Angeles",
+              "region": "CA",
+              "country": "us"
+            },
+            "count": 1,
+            "json": {
+              "filters": "{\"factual_id\":\"1c15310f-3a36-472e-9342-b2b3dc3e1482\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%221c15310f-3a36-472e-9342-b2b3dc3e1482%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          }
+        ]
+      },
+      "name": {
+        "list": [
+          {
+            "type": "name",
+            "name": "lax world",
+            "count": 9,
+            "json": {
+              "filters": "{\"name\":\"lax world\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%20world%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "cutter & lax, attorneys at law",
+            "count": 3,
+            "json": {
+              "filters": "{\"name\":\"cutter & lax, attorneys at law\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22cutter%20%26%20lax%2C%20attorneys%20at%20law%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "lax cell phone waiting lot",
+            "count": 3,
+            "json": {
+              "filters": "{\"name\":\"lax cell phone waiting lot\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%20cell%20phone%20waiting%20lot%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "lax van rental",
+            "count": 3,
+            "json": {
+              "filters": "{\"name\":\"lax van rental\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%20van%20rental%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "laxmi's indian grille",
+            "count": 3,
+            "json": {
+              "filters": "{\"name\":\"laxmi's indian grille\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22laxmi's%20indian%20grille%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "club lax",
+            "count": 2,
+            "json": {
+              "filters": "{\"name\":\"club lax\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22club%20lax%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "food pantry lax",
+            "count": 2,
+            "json": {
+              "filters": "{\"name\":\"food pantry lax\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22food%20pantry%20lax%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "lax",
+            "count": 2,
+            "json": {
+              "filters": "{\"name\":\"lax\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "lax & truax",
+            "count": 2,
+            "json": {
+              "filters": "{\"name\":\"lax & truax\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%20%26%20truax%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          },
+          {
+            "type": "name",
+            "name": "lax airport shuttle",
+            "count": 2,
+            "json": {
+              "filters": "{\"name\":\"lax airport shuttle\",\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%22lax%20airport%20shuttle%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
+          }
+        ]
+      },
+      "topResults": {
+        "count": 1,
+        "list": [
+          {
+            "type": "name_search",
+            "name": "lax",
+            "json": {
+              "filters": "{\"name\":{\"$search\":\"lax\"},\"country\":\"us\",\"latitude\":{\"$blank\":false}}",
+              "select": "latitude,longitude",
+              "limit": 1000
+            },
+            "placesUrl": "https://api.factual.com/search/places?filters=%7B%22name%22%3A%7B%22%24search%22%3A%22lax%22%7D%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000",
+            "description": "Name contains lax"
+          }
+        ]
+      },
+      "suggestions": {
+        "count": 0,
+        "list": []
+      }
+    }
+  }
+}
