@@ -11,6 +11,9 @@
         "count": 0,
         "list": []
       },
+      "name": {
+        "list": []
+      },
       "place": {
         "count": 73,
         "list": [
@@ -195,9 +198,6 @@
             "placesUrl": "https://api.factual.com/search/places?filters=%7B%22factual_id%22%3A%22ba282e35-d322-45c1-8597-dc90954dd924%22%2C%22country%22%3A%22us%22%2C%22latitude%22%3A%7B%22%24blank%22%3Afalse%7D%7D&select=latitude%2Clongitude&limit=1000"
           }
         ]
-      },
-      "name": {
-        "list": []
       },
       "topResults": {
         "count": 1,
