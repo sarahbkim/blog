@@ -3,11 +3,11 @@
   "status": "ok",
   "response": {
     "data": {
-      "chain": {
+      "category": {
         "count": 0,
         "list": []
       },
-      "category": {
+      "chain": {
         "count": 0,
         "list": []
       },
